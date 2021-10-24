@@ -1,0 +1,9 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "navigationBarTitleText": "手写签名"
+    },
+    "sitemapLocation": "sitemap.json"
+}

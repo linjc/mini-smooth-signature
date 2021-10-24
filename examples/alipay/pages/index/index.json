@@ -1,0 +1,7 @@
+{
+  "allowsBounceVertical": "NO",
+  "usingComponents":{
+    "signature":"/components/signature/index",
+    "signature-full-screen":"/components/signature-full-screen/index"
+  }
+}

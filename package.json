@@ -1,0 +1,33 @@
+{
+  "name": "mini-smooth-signature",
+  "version": "1.0.0",
+  "description": "小程序带笔锋手写签名",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "father build",
+    "watch": "father build --watch"
+  },
+  "keywords": [
+    "小程序带笔锋手写签名",
+    "带笔锋手写签名",
+    "小程序手写签名",
+    "手写签名"
+  ],
+  "homepage": "https://github.com/linjc/mini-smooth-signature",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linjc/mini-smooth-signature.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linjc/mini-smooth-signature/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "father": "^2.30.10"
+  }
+}

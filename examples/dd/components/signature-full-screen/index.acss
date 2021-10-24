@@ -1,0 +1,31 @@
+.container2 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 .actionsWrap {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 .actions {
+  margin-right: 10px;
+  white-space: nowrap;
+  transform: rotate(90deg);
+}
+
+.container2 button {
+  margin-left: 5px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 5px;
+}

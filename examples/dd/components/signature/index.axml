@@ -1,0 +1,29 @@
+<!-- 签名 -->
+<view class="container">
+  <canvas
+    id="signature"
+    class="signature"
+    width="{{width * scale}}"
+    height="{{height * scale}}"
+    style="width:{{width}}px;height:{{height}}px;"
+    disable-scroll="{{true}}"
+    onTouchStart="handleTouchStart"
+    onTouchMove="handleTouchMove"
+    onTouchCancel="handleTouchEnd"
+    onTouchEnd="handleTouchEnd"
+  />
+  <view class="actions">
+    <button onTap="handleClear">
+      Clear
+    </button>
+    <button onTap="handleUndo">
+      Undo
+    </button>
+    <button onTap="handlePreview">
+      View PNG
+    </button>
+    <button onTap="handleFullScreen">
+      Full Screen
+    </button>
+  </view>
+</view>

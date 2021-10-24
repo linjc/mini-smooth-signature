@@ -1,0 +1,4 @@
+<view class="index">
+  <signature-full-screen a:if="{{fullScreen}}" onSetFullScreen="onSetFullScreen"></signature-full-screen>
+  <signature a:else  onSetFullScreen="onSetFullScreen"></signature>
+</view>

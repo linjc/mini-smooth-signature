@@ -1,0 +1,38 @@
+<!-- 伪全屏签名 -->
+<view class="container2">
+  <view class="actionsWrap">
+    <view class="actions">
+      <button onTap="handleClear">
+        Clear
+      </button>
+      <button onTap="handleUndo">
+        Undo
+      </button>
+      <button onTap="handlePreview">
+        View PNG
+      </button>
+      <button onTap="handleFullScreen">
+        Close Full Screen
+      </button>
+    </view>
+  </view>
+  <canvas
+    id="signature1"
+    class="signature1"
+    width="{{width * scale}}"
+    height="{{height * scale}}"
+    style="width:{{width}}px;height:{{height}}px;"
+    disable-scroll="{{true}}"
+    onTouchStart="handleTouchStart"
+    onTouchMove="handleTouchMove"
+    onTouchCancel="handleTouchEnd"
+    onTouchEnd="handleTouchEnd"
+  />
+  <!-- 用于生成旋转图片 -->
+  <view style="width:0;height:0;overflow:hidden">
+    <canvas
+      id="signature2"
+      style="width:{{height}}px;height:{{height}}px;"
+    />
+  </view>
+</view>

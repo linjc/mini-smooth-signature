@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "手写签名",
+    "enableComponentOverlayer": "YES"
+  }
+}

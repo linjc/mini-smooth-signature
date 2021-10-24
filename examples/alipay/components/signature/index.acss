@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+}
+
+.container .signature {
+  margin-top: 50px;
+}
+
+.container .actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container button {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
