@@ -22,9 +22,9 @@
 ## 安装
 
 ```bash
-npm install min-smooth-signature
+npm install mini-smooth-signature
 # 或
-yarn add min-smooth-signature
+yarn add mini-smooth-signature
 ```
 
 ## 使用
