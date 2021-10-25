@@ -2,9 +2,22 @@
 
 - [smooth-signature](https://github.com/linjc/smooth-signature) H5带笔锋手写签名，支持PC/移动端使用
 
+- [mini-stores](https://github.com/linjc/mini-stores) 小程序多状态管理库，支持多平台小程序使用
+
+---
+
 ![Demo](https://l2j2c3.gitee.io/smooth-signature/demo.jpg)
 
-小程序带笔锋手写签名，支持微信/支付宝/钉钉/QQ小程序，其他平台小程序可参考现有平台[样例](./examples)自行验证使用。
+- [安装](#安装)
+- [使用](#使用)
+    - [配置](#配置options)
+    - [属性/方法](#实例属性方法)
+- [实现原理](#实现原理)
+    - [1、采集坐标](#1采集画笔经过的点坐标和时间)
+    - [2、计算速度](#2计算两点之间移动速度)
+    - [3、计算线宽](#3计算两点之间线的宽度)
+    - [4、画线](#4画曲线直线)
+- [快捷链接](#快捷链接)
 
 ## 安装
 
@@ -15,7 +28,7 @@ yarn add min-smooth-signature
 ```
 
 ## 使用
-以下展示为钉钉平台测试代码，各平台样例代码请查看[Examples](./examples)。
+支持微信/支付宝/钉钉/QQ小程序。以下展示为钉钉平台测试代码，各平台样例代码请查看[Examples](./examples)，其他平台小程序可参考现有样例自行验证使用。
 ```xml
 <view>
     <canvas
