@@ -8,8 +8,8 @@
 
 ![Demo](https://l2j2c3.gitee.io/smooth-signature/demo.jpg)
 
-- [安装](#安装)
 - [前言](#前言)
+- [安装](#安装)
 - [使用](#使用)
     - [配置](#配置options)
     - [属性/方法](#实例属性方法)
