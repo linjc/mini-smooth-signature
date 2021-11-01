@@ -11,6 +11,9 @@
       <button onTap="handlePreview">
         View PNG
       </button>
+      <button onTap="handleColor">
+        Change Color
+      </button>
       <button onTap="handleFullScreen">
         Close Full Screen
       </button>

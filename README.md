@@ -148,6 +148,11 @@ const signature = new Signature(ctx, {
 生成base64图片函数
 * Type: `function`
 
+**options.requestAnimationFrame**
+
+在下次进行重绘时执行。用于提高绘画性能，减少卡顿不流畅
+* Type: `function`
+
 **options.openSmooth**
 
 是否开启笔锋效果，默认开启

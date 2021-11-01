@@ -31,7 +31,7 @@ Component({
         scale: this.data.scale,
         minWidth: 3,
         maxWidth: 10,
-        bgColor: '#efefef',
+        bgColor: '#e9cb93',
         getImagePath: () => {
           return new Promise((resolve, reject) => {
             ctx.toTempFilePath({

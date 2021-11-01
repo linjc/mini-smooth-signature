@@ -22,6 +22,9 @@
       <button bindtap="handlePreview1">
         View PNG
       </button>
+      <button bindtap="handleColor1">
+        Change Color
+      </button>
       <button bindtap="handleFullScreen1">
         Full Screen
       </button>
@@ -39,6 +42,9 @@
         </button>
         <button bindtap="handlePreview2">
           View PNG
+        </button>
+        <button bindtap="handleColor2">
+          Change Color
         </button>
         <button bindtap="handleFullScreen2">
           Close Full Screen

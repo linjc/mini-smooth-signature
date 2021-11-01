@@ -38,7 +38,7 @@ Page({
         width: this.data.width1,
         height: this.data.height1,
         scale: this.data.scale,
-        bgColor: '#efefef',
+        bgColor: '#e9cb93',
         toDataURL: (type, quality) => canvas.toDataURL(type, quality),
         getImagePath: () => new Promise((resolve, reject) => {
           const img = canvas.createImage();
@@ -64,7 +64,7 @@ Page({
         scale: this.data.scale,
         minWidth: 4,
         maxWidth: 10,
-        bgColor: '#efefef',
+        bgColor: '#e9cb93',
         toDataURL: (type, quality) => canvas.toDataURL(type, quality),
         getImagePath: () => new Promise((resolve, reject) => {
           const img = canvas.createImage();
@@ -119,6 +119,9 @@ Page({
   handleUndo1() {
     this.signature1.undo();
   },
+  handleColor1() {
+    this.signature1.color = '#' + Math.random().toString(16).slice(-6);
+  },
   handlePreview1() {
     if (this.signature1.isEmpty()) {
       wx.showToast({ icon: 'none', title: '未签名' });
@@ -145,6 +148,9 @@ Page({
   },
   handleUndo2() {
     this.signature2.undo();
+  },
+  handleColor2() {
+    this.signature2.color = '#' + Math.random().toString(16).slice(-6);
   },
   handlePreview2() {
     if (this.signature2.isEmpty()) {

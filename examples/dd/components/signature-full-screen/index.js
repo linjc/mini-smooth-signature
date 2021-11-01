@@ -31,7 +31,7 @@ Component({
         scale: this.data.scale,
         minWidth: 3,
         maxWidth: 10,
-        bgColor: '#efefef',
+        bgColor: '#e9cb93',
         getImagePath: () => new Promise((resolve, reject) => {
           ctx.toTempFilePath({
             success: res => resolve(res.filePath),
@@ -66,6 +66,9 @@ Component({
     },
     handleUndo() {
       this.signature.undo();
+    },
+    handleColor() {
+      this.signature.color = '#' + Math.random().toString(16).slice(-6);
     },
     handlePreview() {
       if (this.signature.isEmpty()) {
