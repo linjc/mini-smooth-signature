@@ -1,6 +1,6 @@
 {
   "name": "mini-smooth-signature",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "小程序带笔锋手写签名",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -13,10 +13,13 @@
     "watch": "father build --watch"
   },
   "keywords": [
-    "小程序带笔锋手写签名",
     "带笔锋手写签名",
+    "小程序带笔锋手写签名",
     "小程序手写签名",
-    "手写签名"
+    "手写签名",
+    "canvas手写签名",
+    "前端手写签名",
+    "移动端手写签名"
   ],
   "homepage": "https://github.com/linjc/mini-smooth-signature",
   "repository": {

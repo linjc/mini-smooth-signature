@@ -63,7 +63,7 @@
       bindtouchend="handleTouchEnd2"
     ></canvas>
     <!-- 伪全屏生成旋转图片canvas容器，不在页面上展示 -->
-    <view style="width:0;height:0;overflow:hidden">
+    <view style="position:fixed;left:-2000px;width:0;height:0;overflow:hidden">
       <canvas
         canvas-id="signature3"
         style="width:{{height2}}px;height:{{height2}}px;"

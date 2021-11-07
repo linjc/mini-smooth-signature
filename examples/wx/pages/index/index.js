@@ -40,6 +40,7 @@ Page({
         scale: this.data.scale,
         bgColor: '#e9cb93',
         toDataURL: (type, quality) => canvas.toDataURL(type, quality),
+        requestAnimationFrame: (fn) => canvas.requestAnimationFrame(fn),
         getImagePath: () => new Promise((resolve, reject) => {
           const img = canvas.createImage();
           img.onerror = reject;
@@ -66,6 +67,7 @@ Page({
         maxWidth: 10,
         bgColor: '#e9cb93',
         toDataURL: (type, quality) => canvas.toDataURL(type, quality),
+        requestAnimationFrame: (fn) => canvas.requestAnimationFrame(fn),
         getImagePath: () => new Promise((resolve, reject) => {
           const img = canvas.createImage();
           img.onerror = reject;
