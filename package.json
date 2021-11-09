@@ -1,6 +1,6 @@
 {
   "name": "mini-smooth-signature",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "小程序带笔锋手写签名",
   "main": "lib/index.js",
   "module": "lib/index.js",
