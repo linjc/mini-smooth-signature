@@ -93,7 +93,7 @@ class SmoothSignature {
   }
 
   onDraw = () => {
-    if (this.points.length < 3) return;
+    if (this.points.length < 2) return;
     this.addHistory();
     const point: any = this.points.slice(-1)[0];
     const prePoint: any = this.points.slice(-2, -1)[0];
