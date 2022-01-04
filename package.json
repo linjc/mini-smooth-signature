@@ -1,6 +1,6 @@
 {
   "name": "mini-smooth-signature",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "小程序带笔锋手写签名",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -30,7 +30,7 @@
     "url": "https://github.com/linjc/mini-smooth-signature/issues"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "father": "^2.30.10"
   }
 }
