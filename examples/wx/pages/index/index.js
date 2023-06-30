@@ -200,10 +200,11 @@ Page({
 function base64ToPath(dataURL) {
   return new Promise((resolve, reject) => {
     // const data = wx.base64ToArrayBuffer(dataURL.replace(/^data:image\/\w+;base64,/, ""));
+    const data = dataURL.replace(/^data:image\/\w+;base64,/, "");
     const filePath = `${wx.env.USER_DATA_PATH}/${Math.random().toString(32).slice(2)}.png`;
     wx.getFileSystemManager().writeFile({
       filePath,
-      data: dataURL,
+      data,
       encoding: 'base64',
       success: () => resolve(filePath),
       fail: reject,
