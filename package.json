@@ -1,6 +1,6 @@
 {
   "name": "mini-smooth-signature",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "小程序带笔锋手写签名",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -32,5 +32,6 @@
   "license": "MIT",
   "devDependencies": {
     "father": "^2.30.10"
-  }
+  },
+  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774"
 }

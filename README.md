@@ -68,13 +68,6 @@ Page({
             width: this.data.width,
             height: this.data.height,
             scale: this.data.scale,
-            getImagePath: () => {
-                return new Promise((resolve) => {
-                    ctx.toTempFilePath({
-                        success: res => resolve(res.filePath),
-                    })
-                })
-            }
         });
     },
     // 绑定touchstart事件
@@ -138,10 +131,6 @@ const signature = new Signature(ctx, {
 * Type: `string`
 * Default：
 
-**options.getImagePath**
-
-生成临时图片的Promise函数，用于保存历史记录，如该项未配置，则撤销功能不可用
-* Type: `promise`
 
 **options.toDataURL**
 
@@ -184,12 +173,6 @@ const signature = new Signature(ctx, {
 * Type: `number`
 * Default：20
 
-**options.maxHistoryLength**
-
-限制历史记录数，即最大可撤销数，传入0则关闭历史记录功能
-
-* Type: `number`
-* Default：20
 
 ### 实例属性/方法
 ```js
@@ -199,7 +182,7 @@ signature.ctx
 // 清屏
 signature.clear()
 
-// 撤销，如果未配置getImagePath，则不可用
+// 撤销
 signature.undo()
 
 // 获取base64图片，若未配置toDataURL，则不可用
