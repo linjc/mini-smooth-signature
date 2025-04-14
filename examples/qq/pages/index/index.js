@@ -34,14 +34,7 @@ Page({
       width: this.data.width1,
       height: this.data.height1,
       scale: this.data.scale,
-      bgColor: '#e9cb93',
-      getImagePath: () => new Promise((resolve, reject) => {
-        qq.canvasToTempFilePath({
-          canvasId: 'signature1',
-          success: res => resolve(res.tempFilePath),
-          fail: reject
-        })
-      })
+      bgColor: '#e9cb93'
     })
     this.signature1.clear()
   },
@@ -55,13 +48,7 @@ Page({
       scale: this.data.scale,
       minWidth: 4,
       maxWidth: 10,
-      bgColor: '#e9cb93',
-      getImagePath: () => new Promise((resolve, reject) => {
-        qq.canvasToTempFilePath({
-          canvasId: 'signature2',
-          success: res => resolve(res.tempFilePath),
-        })
-      })
+      bgColor: '#e9cb93'
     })
     this.signature2.clear()
   },

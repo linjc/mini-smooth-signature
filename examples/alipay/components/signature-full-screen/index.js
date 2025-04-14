@@ -31,15 +31,7 @@ Component({
         scale: this.data.scale,
         minWidth: 3,
         maxWidth: 10,
-        bgColor: '#e9cb93',
-        getImagePath: () => {
-          return new Promise((resolve, reject) => {
-            ctx.toTempFilePath({
-              success: res => resolve(res.apFilePath),
-              fail: reject,
-            })
-          })
-        }
+        bgColor: '#e9cb93'
       });
     },
     // 绑定touchstart事件
