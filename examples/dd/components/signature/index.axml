@@ -19,6 +19,9 @@
     <button onTap="handleUndo">
       Undo
     </button>
+    <button onTap="handleRedo">
+      Redo
+    </button>
     <button onTap="handlePreview">
       View PNG
     </button>

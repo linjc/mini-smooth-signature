@@ -21,6 +21,9 @@
       <button bindtap="handleUndo1">
         Undo
       </button>
+      <button bindtap="handleRedo1">
+        Redo
+      </button>
       <button bindtap="handlePreview1">
         View PNG
       </button>
@@ -41,6 +44,9 @@
         </button>
         <button bindtap="handleUndo2">
           Undo
+        </button>
+        <button bindtap="handleRedo2">
+          Redo
         </button>
         <button bindtap="handlePreview2">
           View PNG

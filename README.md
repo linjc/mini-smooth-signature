@@ -185,6 +185,9 @@ signature.clear()
 // 撤销
 signature.undo()
 
+// 重做
+signature.redo()
+
 // 获取base64图片，若未配置toDataURL，则不可用
 signature.toDataURL()
 

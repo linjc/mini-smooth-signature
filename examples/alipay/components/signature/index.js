@@ -58,6 +58,9 @@ Component({
     handleUndo() {
       this.signature.undo();
     },
+    handleRedo() {
+      this.signature.redo();
+    },
     handlePreview() {
       if (this.signature.isEmpty()) {
         my.showToast({ content: '未签名' });

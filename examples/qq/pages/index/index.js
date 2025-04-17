@@ -96,6 +96,9 @@ Page({
   handleUndo1() {
     this.signature1.undo();
   },
+  handleRedo1() {
+    this.signature1.redo();
+  },
   handleColor1() {
     this.signature1.color = '#' + Math.random().toString(16).slice(-6);
   },
@@ -127,6 +130,9 @@ Page({
   },
   handleUndo2() {
     this.signature2.undo();
+  },
+  handleRedo2() {
+    this.signature2.redo();
   },
   handleColor2() {
     this.signature2.color = '#' + Math.random().toString(16).slice(-6);

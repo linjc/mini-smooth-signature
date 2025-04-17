@@ -58,6 +58,9 @@ Component({
     handleUndo() {
       this.signature.undo();
     },
+    handleRedo() {
+      this.signature.redo();
+    },
     handleColor() {
       this.signature.color = '#' + Math.random().toString(16).slice(-6);
     },
