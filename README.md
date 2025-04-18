@@ -6,7 +6,7 @@
 
 ---
 
-![Demo](https://l2j2c3.gitee.io/smooth-signature/demo.jpg)
+![Demo](https://linjc.github.io/signature-demo.jpg)
 
 - [前言](#前言)
 - [安装](#安装)
